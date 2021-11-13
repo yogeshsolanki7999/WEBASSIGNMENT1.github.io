@@ -1,6 +1,6 @@
 /* For giving background image */
 body{
-  background-image: url("blob image/login.jpg");
+  background-image: url("login.jpg");
   background-size: cover;
   
 }

@@ -1,5 +1,5 @@
 body{
-    background-image: url("blob image/login.jpg");
+    background-image: url("login.jpg");
     background-size: 100%;
 }
 h1{
@@ -49,13 +49,11 @@ div{
     margin-top: 90px;
     margin-left: 0px;
 }
-h4{
-    margin-left: 285px;
-    margin-top: 35px;
-    
-}
+
 a{
     color: azure;
     font-size: larger;
     display: block;
+    margin-left: 285px;
+    margin-top: 35px;
 }
