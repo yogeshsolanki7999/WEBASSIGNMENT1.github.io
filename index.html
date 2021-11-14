@@ -6,24 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="login.css">
-    <title>Document</title>
-    <style>
-
-
-    </style>
+    <title>Login page</title>
+    
 </head>
-<body class="center" >
+
+<body>
+
+    <!-- From this tag my login form starts and backend.js has no work because we haven't done backend coding -->
 
     <form  id="form-login" action="backend.js">
 
 <div>
       <h1 ">Sign in </h1> 
 
-      <input type="text" placeholder="username" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="The username must be an email" required>
+<!-- Here Regex is .+@.+\..+  because we have an intruction to create a regex for email and our username must be an E-mail -->
+
+      <input type="text" placeholder="username" pattern=".+@.+\..+" title="The username must be an email" required>
        
       <input  id="pass"type="password" maxlength="10" placeholder="password" required
 
-      <h4> <a href="regiter.html">click here if not register</a></h4>
+      <h4> <a href="regiter.html">Not a user click here to register</a></h4>
 
        <button form="form-login" type="submit">Login</button>
     

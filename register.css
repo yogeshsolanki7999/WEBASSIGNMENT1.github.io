@@ -5,25 +5,31 @@ body{
   
 }
 
+/* Span is for giving style to Gender and Term condition elements  */
 span{
   color: antiquewhite;
   font-size: 25px;
   margin: 10px;
 }
 
+/* .div-input is to allign the input elements it doesn't give style to them */
 .div-input{
   margin-top: 32px;
   margin-left: 11%;
 }
+
+/* .div-h2 is for giving style and allignment to the sign up text  */
 .div-h2{
   margin-top: 25px;
-  margin-left: 19%;
+  margin-left: 20%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: larger;
   font-style: italic;
   font: weight 100px;
   color: aliceblue;
 }
+
+/* This is for styling input elements */
 .input{
   width: 420px;
   height: 40px;
@@ -39,14 +45,14 @@ span{
   
 }
 
-
+/* This is used to increase the size of radio element */
 .rad{
   size: 200px;
   width: 30px;
   height: 15px;
 }
 
-
+/* For styling text area */
 textarea{
   border-radius: 10px;
   border: none;
@@ -60,7 +66,7 @@ textarea{
 
 }
 
-
+/* For styling button */
 button{
   width: 400px;
   margin: 15px;
@@ -75,13 +81,13 @@ button{
   padding-bottom: 10px;
 }
 
-
+/* This is for decreasing the opacity of button and input elements */
 .opacity{
   opacity: 0.6;
 
 }
 
-
+/* For giving extra margin to button */
 .div-button{
   margin-left: 8%;
 }

@@ -1,3 +1,7 @@
+/* I have use all the tags name as css selectors to give
+ the suitable design for my login page no extra class
+  and id is given  */
+
 body{
     background-image: url("login.jpg");
     background-size: 100%;
@@ -30,7 +34,7 @@ input{
 button{
     display: block;
   margin-left: 275px;
-  margin-top: 10px;
+  margin-top: 13px;
   width: 200px;
   height: 30px;
   background-color: white;
@@ -54,6 +58,6 @@ a{
     color: azure;
     font-size: larger;
     display: block;
-    margin-left: 285px;
+    margin-left: 260px;
     margin-top: 35px;
 }
